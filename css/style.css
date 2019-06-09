@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    background:#31383c;
+}
+
+.quiz{
+    margin-top: 5%;
+}
+
+#btn0, #btn1, #btn2, #btn3{
+    border: 1px, solid, rgb(233, 221, 221);
+    width:35%;
+    color: rgb(233, 221, 221);
+    margin: 3% 40px 10px 0px;
+    border-radius: 9px;
+}
+
+#btn0{
+
+    background:#181717;
+}
+
+#btn1{
+    background: rgb(59, 59, 126);
+}
+
+#btn2{
+    background:rgb(52, 94, 52);
+}
+
+#btn3{
+    background:rgb(73, 17, 28);
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+    background-color: rgb(48, 42, 42);
+}
+
+
+#answer0, #answer1, #answer2, #answer3{
+    font-size: 20px;
+}
+
+#progress{
+    text-align: left;
+    color: rgb(233, 221, 221);
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    font-weight: 700;
+    color: rgb(233, 221, 221);
+}
+
+#question{
+
+color: #fff;
+}
+
+.button{
+    margin-top: 5%;
+}
+
+#result{
+margin: 17% auto auto 1%;
+font-size: 2.5em;
+color: rgb(84, 211, 148);
+font-family: Arial;
+font-weight: 200;
+padding: 10px 20px;
+border: solid 1px #e0e0e0;
+display: inline-block;
+border-radius: 7px;
+
+}
+
+#finalScore{
+    font-family : cursive;
+    margin-top: 5%;
+    color: rgb(233, 221, 221);
+
+}
+
+#question{
+    font-size: 22px;
+}
+
+.hrbottom{
+    margin-top:5%;
+}
+
+#resultpercent{
+    font-size : 60px;
+    color: #fff;
+    font-family: cursive;
+    color: rgb(84, 211, 148);
+
+}
