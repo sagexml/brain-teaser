@@ -113,6 +113,7 @@ var questions = [
                 , ["possibly", "unfortunately","prime", "legally"], "unfortunately"),
     new Question("What day comes three days after the day which comes two days after the day which comes immediately after the day which comes two days after monday?", 
                  ["Monday", "Tuesday","Wednesday", "Saturday"], "Tuesday"),
+    new Question("Why is six afraid of seven?", ["because 7 hate 9", "because 7 is higher than 6", "7 is an odd number", "7 is a prime number" ], "because 7 hate 9")  
 ];
  
 // create quiz
