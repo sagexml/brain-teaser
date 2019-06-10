@@ -112,7 +112,7 @@ var questions = [
     new Question("Which of the five is least like the other four? ", ["Baseball", "Badminton","Golf", "Football"], "Football"),
     new Question("OCEAN is to AENCO as 89653 is to?", ["85369", "56389", "56398", "65398"], "56398"),
     new Question("Pick the number that is 1/4 of 1/2 of 1/5 of 200", ["15", "5","10", "4"], "5"),
-    new Question('Choose the word that is most similar to "Appropraite"', ["Impertinent", "Suited", "Relevant", "Likely"], "Suited"),
+    new Question('Choose the word that is most similar to "Appropriate"', ["Impertinent", "Suited", "Relevant", "Likely"], "Suited"),
     new Question("Virus is to Vaccine as Exam is to:" ,["Trying", "Attempting", "Passing", "Studying"], "Studying"),
     new Question("What relation is your niece's brother to you?", ["Son", "Uncle","Nephew", "Cousin"], "Nephew"),
     new Question("How many birthdays does an average Nigerian man have?", ["1", "10", "59", "70"], "1"),
