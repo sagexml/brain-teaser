@@ -86,11 +86,23 @@ function resultinPerc(){
     return Math.ceil(element);
 }
 
+var explanation = "<h3 id ='expheader'>Correct Answers</h3> <ol id='explanation' > <li> Football: All other sports requires holding something in hand" +
+                " <li> 56398: No explanation needed " + "<li> 5: 1/5 of 200 is 40, 1/2 of 40 is 20, 1/4 of 20 is 5"  +
+                  " <li> Suited : Check your fucking dictionary  " + "<li> Studying: Vaccine is the solution Virus, studying is the solution to exam" + 
+                  " <li> Nephew: No explanation needed" + "<li> 1: Everyone has one birthday in a year" + "<li> 70:  30 divided by half is 60, not 15 " +
+                  "<li> 60: one pill first, then another in the next 30 minutues, then the last one in the next 30 minutes. 60 minutes in total " +
+                  "<li> Jane's Daughter: Jane's mother's husband is jane's father, his daughter is Jane, and Jill is her daughter." +
+                  " <li> Simple: All other word comes in a consonant vowel trend, expect for simple" +
+                  " <li> Unfortunately: No explanation needed" + " <li> Tuesday: No explanation needed" +
+                  " <li>  Because 7 hates 9: 6 looks like 9 and seven hates 9, its only logical for 6 to be afraid of 7" +
+                  "<li> Green: No explanation needed </ol>"
+
 function displayScores(){
     header = "<h1 id=result> RESULT </h1>";
     header = header + "<h2 id = 'finalScore'> your final score is "   + quiz.score + " Out of " + quiz.questions.length + " </h2>";
     var element = document.getElementById("container");
-    element.innerHTML = header + "<h1 id = 'resultpercent'> " + resultinPerc() + "%" + "</h1>" ; 
+    element.innerHTML = header + "<h1 id = 'resultpercent'> " + resultinPerc() + "%" + "</h1>" + explanation ;
+    
 }
 
 
@@ -113,7 +125,9 @@ var questions = [
                 , ["possibly", "unfortunately","prime", "legally"], "unfortunately"),
     new Question("What day comes three days after the day which comes two days after the day which comes immediately after the day which comes two days after monday?", 
                  ["Monday", "Tuesday","Wednesday", "Saturday"], "Tuesday"),
-    new Question("Why is six afraid of seven?", ["because 7 hate 9", "because 7 is higher than 6", "7 is an odd number", "7 is a prime number" ], "because 7 hate 9")  
+     new Question("Why is six afraid of seven?", ["because 7 hates 9", "because 7 is higher than 6", "7 is an odd number", "7 is a prime number" ], "because 7 hates 9") , 
+     new Question("Mr. A likes red colour, Mr. B likes red, white and blue colour, C likes white, green and blue colour, whereas D likes only green colour, which is the most liked colour?"
+                  , ["White", "Blue", "Red", "Green" ], "Green")         
 ];
  
 // create quiz
