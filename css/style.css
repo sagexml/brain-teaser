@@ -117,7 +117,7 @@ border-radius: 7px;
 .footer {
     color: rgb(233, 221, 221);
     margin-top: -2.8%;
-    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     white-space: pre-wrap;
+    text-align: right;
 }
